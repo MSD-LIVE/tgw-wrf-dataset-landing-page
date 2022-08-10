@@ -1,0 +1,50 @@
+[
+    {
+        "label": "Temperature",
+        "image": "/img/T2C.png",
+        "gif": "/img/T2C.gif",
+        "variable": "T2",
+        "description": "Temperature at 2 meters above surface",
+        "units": "Kelvin"
+    },
+    {
+        "label": "Precipitation",
+        "image": "/img/PRCP.png",
+        "gif": "/img/PRCP.gif",
+        "variable": "RAINC + RAINSH + RAINNC",
+        "description": "Accumulated precipitation",
+        "units": "Millimeters"
+    },
+    {
+        "label": "Wind Speed",
+        "image": "/img/WSPD.png",
+        "gif": "/img/WSPD.gif",
+        "variable": "U10, V10, WSPD",
+        "description": "Wind velocity at 10 meters, wind speed at lowest level",
+        "units": "Meters per second"
+    },
+    {
+        "label": "Pressure",
+        "image": "/img/PSFC.png",
+        "gif": "/img/PSFC.gif",
+        "variable": "PSFC",
+        "description": "Pressure at surface level",
+        "units": "Pascals"
+    },
+    {
+        "label": "Short Wave Flux",
+        "image": "/img/SWDOWN.png",
+        "gif": "/img/SWDOWN.gif",
+        "variable": "SWDOWN",
+        "description": "Downward short wave flux at ground level",
+        "units": "Watts per square meter"
+    },
+    {
+        "label": "Long Wave Flux",
+        "image": "/img/GLW.png",
+        "gif": "/img/GLW.gif",
+        "variable": "GLW",
+        "description": "Downward long wave flux at ground level",
+        "units": "Watts per square meter"
+    }
+]

@@ -1,0 +1,252 @@
+{
+    "LU_INDEX": {
+        "description": "LAND USE CATEGORY",
+        "units": "",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": "Based on NLCD"
+    },
+    "Q2": {
+        "description": "QV at 2 M",
+        "units": "kg kg-1",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": ""
+    },
+    "T2": {
+        "description": "TEMP at 2 M",
+        "units": "K",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": ""
+    },
+    "PSFC": {
+        "description": "SFC PRESSURE",
+        "units": "Pa",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": ""
+    },
+    "U10": {
+        "description": "U at 10 M",
+        "units": "m s-1",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": ""
+    },
+    "V10": {
+        "description": "V at 10 M",
+        "units": "m s-1",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": ""
+    },
+    "SFROFF": {
+        "description": "SURFACE RUNOFF",
+        "units": "mm",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": ""
+    },
+    "UDROFF": {
+        "description": "UNDERGROUND RUNOFF",
+        "units": "mm",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": ""
+    },
+    "ACSNOM": {
+        "description": "ACCUMULATED MELTED SNOW",
+        "units": "kg m-2",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": "Within the LSM the amount of melted liquid water is calculated and used to update the snowpack (SNOW & SNOWH)."
+    },
+    "SNOW": {
+        "description": "SNOW WATER EQUIVALENT",
+        "units": "kg m-2",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": "SNOW field contains the amount of liquid equivalent snow water on the ground during the simulation."
+    },
+    "SNOWH": {
+        "description": "PHYSICAL SNOW DEPTH",
+        "units": "m",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": "The SNOWH field contains the physical depth of the snowpack during a simulation."
+    },
+    "WSPD": {
+        "description": "Wind Speed At Lowest Model Level (may contain vconv)",
+        "units": "m s-1",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": ""
+    },
+    "BR": {
+        "description": "Bulk Richardson",
+        "units": "",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": ""
+    },
+    "ZOL": {
+        "description": "z/L",
+        "units": "",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": ""
+    },
+    "RAINC": {
+        "description": "ACCUMULATED TOTAL CUMULUS PRECIPITATION",
+        "units": "mm",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": "Total accumulated precipitation = RAINC + RAINSH + RAINNC"
+    },
+    "RAINSH": {
+        "description": "ACCUMULATED SHALLOW CUMULUS PRECIPITATION",
+        "units": "mm",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": "Total accumulated precipitation = RAINC + RAINSH + RAINNC"
+    },
+    "RAINNC": {
+        "description": "ACCUMULATED TOTAL GRID SCALE PRECIPITATION",
+        "units": "mm",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": "Total accumulated precipitation = RAINC + RAINSH + RAINNC"
+    },
+    "SNOWNC": {
+        "description": "ACCUMULATED TOTAL GRID SCALE SNOW AND ICE",
+        "units": "mm",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": "This field should not be confused with ACSNOW. It also should not be used as a surrogate for liquid equivalent snowfall since it does not include the accumulated graupel."
+    },
+    "GRAUPELNC": {
+        "description": "ACCUMULATED TOTAL GRID SCALE GRAUPEL",
+        "units": "mm",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": "Remember that all the NC fields, including GRAUPELNC, contain the information from the microphysics scheme only."
+    },
+    "HAILNC": {
+        "description": "ACCUMULATED TOTAL GRID SCALE HAIL",
+        "units": "mm",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": ""
+    },
+    "SWDOWN": {
+        "description": "DOWNWARD SHORT WAVE FLUX AT GROUND SURFACE",
+        "units": "W m-2",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": ""
+    },
+    "GLW": {
+        "description": "DOWNWARD LONG WAVE FLUX AT GROUND SURFACE",
+        "units": "W m-2",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": ""
+    },
+    "UST": {
+        "description": "U* IN SIMILARITY THEORY",
+        "units": "m s-1",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": ""
+    },
+    "SNOWC": {
+        "description": "FLAG INDICATING SNOW COVERAGE (1 FOR SNOW COVER)",
+        "units": "",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": "The SNOWC is the ratio of surface area covered by snow within a grid box. The calculation is made within the LSM scheme. For the NOAH LSM, the value is dependent upon the liquid snow equivalent of the snowpack (SNOW) and the vegetation type. That is all you need to know about SNOWC."
+    },
+    "SR": {
+        "description": "fraction of frozen precipitation",
+        "units": "-",
+        "dimensions": [
+            "Time",
+            "south_north",
+            "west_east"
+        ],
+        "notes": "Note that SR is determined within the microphysics and does not care about what is falling out of the cumulus or shallow cumulus schemes. This nugget of information may be important because SR values are used to compute ACSNOW"
+    }
+}
