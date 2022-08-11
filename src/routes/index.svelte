@@ -46,7 +46,7 @@
             Overview
         </h4>
         <p style="margin-bottom:1rem;">
-            The <Link target="_blank" href="https://im3.pnnl.gov">IM3</Link> / <Link target="_blank" href="https://hyperfacets.ucdavis.edu/">HyperFACETS</Link> climate simulations provide 40-year historical (1980-2019) as well as 4 future 21st century simulations (2020-2099) over the U.S. The future scenarios span a range of plausible changes in future climate (both Global Circulation Model (GCM) and Representative Concentration Pathways/Shared Socioeconomic Pathway (RCP/SSP) dimensions). 
+            The <Link target="_blank" href="https://im3.pnnl.gov">IM3</Link> / <Link target="_blank" href="https://hyperfacets.ucdavis.edu/">HyperFACETS</Link> climate simulations provide 40-year historical (1980-2019) as well as four 80-year future simulations (2020-2099) over the U.S. The future simulations are split into near (2020-2059) and far future (2060-2099) segments. The future scenarios span a range of plausible changes in future climate (both Global Circulation Model (GCM) and Representative Concentration Pathways/Shared Socioeconomic Pathway (RCP/SSP) dimensions). 
         </p>
         <p style="margin-bottom:1rem;">
             The simulations provide climate variables with high spatiotemporal resolution (25 hourly variables and 207 3-hourly variables at 12 km2). The datasets are generated using dynamical downscaling with the <Link target="_blank" href="https://www.mmm.ucar.edu/weather-research-and-forecasting-model">WRF</Link> (Weather Research and Forecasting) model (version 4.2.1) and therefore preserve physical consistency across variables. WRF is a state-of-the-art, fully compressible, non-hydrostatic, mesoscale numerical weather prediction model. WRF is coupled with an urban canopy model (UCM), which resolves urban surfaces. 
@@ -101,7 +101,7 @@
     </div>
     <Tile light style="width: 100%;">
         <h4>
-            Datasets
+            Dataset Availability
         </h4>
         <div class='flex-row'>
             {#each datasets as dataset, i}
@@ -186,6 +186,9 @@
             </div>
             <div class="logo">
                 <img class="doesc-logo" alt="DOE SC" src="img/doesc.png"/>
+            </div>
+            <div class="logo">
+                <img class="msd-live-logo" alt="MSD-LIVE" src="img/msd-live.svg"/>
             </div>
             <div class="logo">
                 <img class="nersc-logo" alt="NERSC" src="img/nersc.png"/>
@@ -316,6 +319,9 @@
     .doesc-logo {
         background-color: white;
         padding: 0.25rem 0.5rem;
+        height: 70px;
+    }
+    .msd-live-logo {
         height: 70px;
     }
     .nersc-logo {

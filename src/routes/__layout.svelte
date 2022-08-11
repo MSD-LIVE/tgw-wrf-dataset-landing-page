@@ -1,5 +1,6 @@
 <script>
     import "carbon-components-svelte/css/all.css";
+	import { onMount } from 'svelte';
     import { page } from '$app/stores';
     import { browser } from "$app/env"
     import {
@@ -37,6 +38,10 @@
 
     let isSideNavOpen = false;
     let isOpen = false;
+
+    onMount(() => {
+		document.title = 'TGW WRF Dataset';
+    });
 
 </script>
 
