@@ -64,10 +64,6 @@
     :global(.small-cell) {
         width: 9rem;
     }
-    :global(.fit-tile) {
-        margin: 2rem 1rem;
-        width: 19rem;
-    }
     .flex-row {
         display: flex;
         flex-direction: row;

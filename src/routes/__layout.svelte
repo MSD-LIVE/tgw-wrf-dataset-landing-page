@@ -68,6 +68,7 @@
     <HeaderNav>
         <HeaderNavItem href="/" text="Home" isSelected={$page.url.pathname == "/"} />
         <HeaderNavItem href="/methods" text="Methods" isSelected={$page.url.pathname == "/methods"}/>
+        <HeaderNavItem href="/applications" text="Applications" isSelected={$page.url.pathname == "/applications"}/>
         <HeaderNavItem href="/publications" text="Publications" isSelected={$page.url.pathname == "/publications"}/>
         <HeaderNavItem href="/variables" text="Variables" isSelected={$page.url.pathname == "/variables"}/>
         <HeaderNavItem href="/downloads" text="Downloads" isSelected={$page.url.pathname == "/downloads"}/>
@@ -80,6 +81,9 @@
                         Home
                     </HeaderPanelLink>
                     <HeaderPanelLink href="/methods">
+                        Methods
+                    </HeaderPanelLink>
+                    <HeaderPanelLink href="/applications">
                         Methods
                     </HeaderPanelLink>
                     <HeaderPanelLink href="/publications">
@@ -103,6 +107,10 @@
 <style>
     :global(.bx--tile--light) {
         background-color: unset;
+    }
+    :global(.fit-tile) {
+        margin: 2rem 1rem;
+        width: 19rem;
     }
     :global(h4) {
         margin-bottom: 0.25rem;
