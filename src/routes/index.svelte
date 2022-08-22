@@ -43,13 +43,13 @@
 >
     <Tile light style="flex: 2 1 0; min-width: 350px; margin-right: 2rem;min-width: 400px;">
         <h4>
-            Overview
+            Overview <small class="small"><Link icon={Launch} href="/methods">methods</Link></small>
         </h4>
         <p style="margin-bottom:1rem;">
             The <Link target="_blank" href="https://im3.pnnl.gov">IM3</Link> / <Link target="_blank" href="https://hyperfacets.ucdavis.edu/">HyperFACETS</Link> climate simulations provide 40-year historical (1980-2019) as well as four 80-year future simulations (2020-2099) over the U.S. The future simulations are split into near (2020-2059) and far future (2060-2099) segments. The future scenarios span a range of plausible changes in future climate (both Global Circulation Model (GCM) and Representative Concentration Pathways/Shared Socioeconomic Pathway (RCP/SSP) dimensions). 
         </p>
         <p style="margin-bottom:1rem;">
-            The simulations provide climate variables with high spatiotemporal resolution (25 hourly variables and 207 3-hourly variables at 12 km2). The datasets are generated using dynamical downscaling with the <Link target="_blank" href="https://www.mmm.ucar.edu/weather-research-and-forecasting-model">WRF</Link> (Weather Research and Forecasting) model (version 4.2.1) and therefore preserve physical consistency across variables. WRF is a state-of-the-art, fully compressible, non-hydrostatic, mesoscale numerical weather prediction model. WRF is coupled with an urban canopy model (UCM), which resolves urban surfaces. 
+            The simulations provide climate variables with high spatiotemporal resolution (<Link href="/variables">25 hourly variables and 207 3-hourly variables</Link> at 12 km²). The datasets are generated using dynamical downscaling with the <Link target="_blank" href="https://www.mmm.ucar.edu/weather-research-and-forecasting-model">WRF</Link> (Weather Research and Forecasting) model (version 4.2.1) and therefore preserve physical consistency across variables. WRF is a state-of-the-art, fully compressible, non-hydrostatic, mesoscale numerical weather prediction model. WRF is coupled with an urban canopy model (UCM), which resolves urban surfaces. 
         </p>
         <p style="margin-bottom:1rem;">
             The future scenarios were developed using a thermodynamic global warming approach where past events are replayed under a range of future warming conditions. These scenarios therefore provide a perspective on potential increases in extreme event intensity, geographic scope, and duration, with previously non-extreme conditions potentially crossing new thresholds to be considered extreme by today’s standards. This approach is not intended to estimate future changes in extreme event frequency that might result from changes in large-scale atmospheric dynamics.
@@ -91,7 +91,7 @@
                 <span class="stat-label">Temporal Resolution:</span>
                 <span class="stat-label">hourly, three-hourly</span>
                 <span class="stat-label">Variables:</span>
-                <span class="stat-label">25 hourly, 207 three-hourly</span>
+                <span class="stat-label"><Link href="/variables">25 hourly, 207 three-hourly</Link></span>
                 <span class="stat-label">Simulation Period:</span>
                 <span class="stat-label">1980 - 2099</span>
                 <span class="stat-label">Format:</span>
@@ -101,7 +101,7 @@
     </div>
     <Tile light style="width: 100%;">
         <h4>
-            Dataset Availability
+            Dataset Availability <small class="small"><Link icon={Launch} href="/downloads">downloads</Link></small>
         </h4>
         <div class='flex-row'>
             {#each datasets as dataset, i}
