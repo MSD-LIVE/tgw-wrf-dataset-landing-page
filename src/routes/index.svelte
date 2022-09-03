@@ -54,6 +54,9 @@
         <p style="margin-bottom:1rem;">
             The future scenarios were developed using a thermodynamic global warming approach where past events are replayed under a range of future warming conditions. These scenarios therefore provide a perspective on potential increases in extreme event intensity, geographic scope, and duration, with previously non-extreme conditions potentially crossing new thresholds to be considered extreme by today’s standards. This approach is not intended to estimate future changes in extreme event frequency that might result from changes in large-scale atmospheric dynamics.
         </p>
+        <p style="margin-bottom:1rem;">
+            This dataset has NOT been bias corrected. A bias corrected version is under development and will be released here when available.
+        </p>
     </Tile>
     <div style="flex: 1 1 0; display:flex; flex-direction:column;">
         <Tile light style="min-width: 350px;">
@@ -273,7 +276,7 @@
     }
     .dataset-img {
         width: 100%;
-        max-height: 150px;
+        height: 150px;
         border-radius: 3px;
         margin-bottom: 0.5rem;
         object-fit: cover;

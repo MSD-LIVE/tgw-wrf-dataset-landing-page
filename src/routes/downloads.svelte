@@ -18,10 +18,10 @@
         Downloads
     </h1>
     <p>
-        Data are currently available on Globus endpoints, but will soon be available with permanent DOIs.
+        Datasets are available to download via Globus endpoints.
     </p>
     <p>
-        Accessing a Globus endpoint requires installation of the <Link target="_blank" href="https://www.globus.org/globus-connect-personal">Globus Connect Personal</Link> software.
+        Accessing a Globus endpoint may require the installation of the <Link target="_blank" href="https://www.globus.org/globus-connect-personal">Globus Connect Personal</Link> software.
     </p>
     <div class="flex-row">
         {#each datasets as dataset, i}
