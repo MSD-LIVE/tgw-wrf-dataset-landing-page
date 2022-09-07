@@ -2,6 +2,7 @@
     {   "name": "historic",
         "image": "/img/wrf_historic_1980.png",
         "subtitle": "1980 - 2019",
+        "doi": "10.57931/1885756",
         "tags": [],
         "urls": [
             {
@@ -20,6 +21,7 @@
         "name": "rcp45cooler",
         "image": "/img/wrf_rcp45cooler_2020.png",
         "subtitle": "2020 - 2059",
+        "doi": "10.57931/1885756",
         "tags": [],
         "urls": [
             {
@@ -38,6 +40,7 @@
         "name": "rcp45cooler",
         "image": "/img/wrf_rcp45cooler_2060.png",
         "subtitle": "2060 - 2099",
+        "doi": "10.57931/1885756",
         "tags": [],
         "urls": [
             {
@@ -56,6 +59,7 @@
         "name": "rcp45hotter",
         "image": "/img/wrf_rcp45hotter_2020.png",
         "subtitle": "2020 - 2059",
+        "doi": "10.57931/1885756",
         "tags": [],
         "urls": [
             {
@@ -74,6 +78,7 @@
         "name": "rcp45hotter",
         "image": "/img/wrf_rcp45hotter_2060.png",
         "subtitle": "2060 - 2099",
+        "doi": "10.57931/1885756",
         "tags": [],
         "urls": [
             {
@@ -92,6 +97,7 @@
         "name": "rcp85cooler",
         "image": "/img/wrf_rcp85cooler_2020.png",
         "subtitle": "2020 - 2059",
+        "doi": "10.57931/1885756",
         "tags": [],
         "urls": [
             {
@@ -110,6 +116,7 @@
         "name": "rcp85cooler",
         "image": "/img/wrf_rcp85cooler_2060.png",
         "subtitle": "2060 - 2099",
+        "doi": "10.57931/1885756",
         "tags": [],
         "urls": [
             {
@@ -128,6 +135,7 @@
         "name": "rcp85hotter",
         "image": "/img/wrf_rcp85hotter_2020.png",
         "subtitle": "2020 - 2059",
+        "doi": "10.57931/1885756",
         "tags": [],
         "urls": [
             {
@@ -146,6 +154,7 @@
         "name": "rcp85hotter",
         "image": "/img/wrf_rcp85hotter_2060.png",
         "subtitle": "2060 - 2099",
+        "doi": "10.57931/1885756",
         "tags": [],
         "urls": [
             {
@@ -163,6 +172,7 @@
     {   "name": "warming deltas",
         "image": "/img/deltas.png",
         "subtitle": "2020 - 2099",
+        "doi": "10.57931/1885756",
         "tags": [],
         "urls": [
             {

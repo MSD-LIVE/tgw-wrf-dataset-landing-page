@@ -40,7 +40,7 @@
     let isOpen = false;
 
     onMount(() => {
-		document.title = 'TGW WRF Dataset';
+		document.title = 'TGW Simulations';
     });
 
 </script>
@@ -61,7 +61,7 @@
 	</script>
 </svelte:head>
 
-<Header company="" platformName="TGW WRF Simulations" bind:isSideNavOpen>
+<Header company="" platformName="TGW Simulations" bind:isSideNavOpen>
     <svelte:fragment slot="skip-to-content">
         <SkipToContent />
     </svelte:fragment>

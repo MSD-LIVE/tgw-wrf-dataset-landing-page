@@ -32,9 +32,9 @@
     <div
         class="hero-txt"
     >
-        <p>Dataset</p>
-        <h1>Thermodynamic Global Warming Simulations</h1>
         <p>IM3 / HyperFACETS</p>
+        <h1>Thermodynamic Global Warming Simulations</h1>
+        <p>Dataset</p>
     </div>
 </div>
 
@@ -76,6 +76,8 @@
                 </h4>
                 <h4>
                 </h4>
+                <span class="stat-label">DOI:</span>
+                <span class="stat-label"><a href="https://doi.org/10.57931/1885756"><img src="https://data.msdlive.org/badge/DOI/10.57931/1885756.svg" alt="DOI"></a></span>
                 <span class="stat-label">Projection:</span>
                 <span class="stat-label tooltip-label">
                     <span>

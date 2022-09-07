@@ -27,7 +27,7 @@
         {#each datasets as dataset, i}
             <Tile class="fit-tile">
                 <h4 id="dataset-{i}">{dataset.name}</h4>
-                <p>{dataset.subtitle}</p>
+                <span>{dataset.subtitle}</span>
                 <StructuredList condensed flush>
                     <StructuredListBody>
                         {#each dataset.urls as url}
@@ -52,6 +52,9 @@
                         {/each}
                     </StructuredListBody>
                 </StructuredList>
+                <div class="doi-row">
+                    <a href="https://doi.org/{dataset.doi}"><img src="https://data.msdlive.org/badge/DOI/{dataset.doi}.svg" alt="DOI"></a>
+                </div>
             </Tile>
         {/each}
     </div>
@@ -68,5 +71,11 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    .doi-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
     }
 </style>
