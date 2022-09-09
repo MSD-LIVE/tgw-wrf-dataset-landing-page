@@ -72,6 +72,7 @@
         <HeaderNavItem href="/publications" text="Publications" isSelected={$page.url.pathname == "/publications"}/>
         <HeaderNavItem href="/variables" text="Variables" isSelected={$page.url.pathname == "/variables"}/>
         <HeaderNavItem href="/downloads" text="Downloads" isSelected={$page.url.pathname == "/downloads"}/>
+        <HeaderNavItem href="/collaborate" text="Collaborate!" isSelected={$page.url.pathname == "/collaborate"}/>
     </HeaderNav>
     <HeaderUtilities>
         <HeaderGlobalAction aria-label="Theme" icon={theme == "g100" ? LightFilled : Light} on:click={() => theme = theme == "g100" ? "white" : "g100"} />
@@ -94,6 +95,9 @@
                     </HeaderPanelLink>
                     <HeaderPanelLink href="/downloads">
                         Downloads
+                    </HeaderPanelLink>
+                    <HeaderPanelLink href="/collaborate">
+                        Collaborate!
                     </HeaderPanelLink>
                 </HeaderPanelLinks>
             </HeaderAction>

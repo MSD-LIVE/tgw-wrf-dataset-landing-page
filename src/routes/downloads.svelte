@@ -18,10 +18,16 @@
         Downloads
     </h1>
     <p>
-        Datasets are available to download via Globus endpoints.
+        Data is available via Globus endpoint. Globus is an efficient file transfer application and download manager.
     </p>
     <p>
-        Accessing a Globus endpoint may require the installation of the <Link target="_blank" href="https://www.globus.org/globus-connect-personal">Globus Connect Personal</Link> software.
+        Many computing clusters provide mechanisms for transferring files from Globus endpoints. To download directly to your machine, use the <Link target="_blank" href="https://www.globus.org/globus-connect-personal">Globus Connect Personal</Link> application.
+    </p>
+    <p>
+        Use of Globus may require creation of an account. Many institutions provide single sign-on capability; if yours does not, signing in with your ORCID is commonly used option.
+    </p>
+    <p>
+        A copy of the data is permanently stored in the MSD-LIVE data repository.
     </p>
     <div class="flex-row">
         {#each datasets as dataset, i}
