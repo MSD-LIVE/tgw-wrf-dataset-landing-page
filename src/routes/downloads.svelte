@@ -24,7 +24,7 @@
         Many computing clusters provide mechanisms for transferring files from Globus endpoints. To download directly to your machine, use the <Link target="_blank" href="https://www.globus.org/globus-connect-personal">Globus Connect Personal</Link> application.
     </p>
     <p>
-        Use of Globus may require creation of an account. Many institutions provide single sign-on capability; if yours does not, signing in with your ORCID is commonly used option.
+        Use of Globus may require creation of an account. Many institutions provide single sign-on capability; if yours does not, signing in with an ORCID is a commonly used option.
     </p>
     <p>
         A copy of the data is permanently stored in the MSD-LIVE data repository.
