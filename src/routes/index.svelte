@@ -65,7 +65,7 @@
                     Citation
                 </h4>
                 <p style="font-style: italic;">
-                    Jones, A.D., D. Rastogi, P. Vahmani, A. Stansfield, K. Reed, P. Ullrich, J. Rice, From storylines to anthologies: Twenty-first century climate projections for the continental United States based on thermodynamic modification of historic weather conditions, in prep. 
+                    Jones, A.D., Rastogi D., Vahmani P., Stansfield A., Reed K., Thurber T., Ullrich P., Rice J.S., From storylines to anthologies: Twenty-first century climate projections for the continental United States based on thermodynamic modification of historic weather conditions, in prep. 
                 </p>
             </div>
         </Tile>

@@ -24,6 +24,9 @@
         Many computing clusters provide mechanisms for transferring files from Globus endpoints. To download directly to your machine, use the <Link target="_blank" href="https://www.globus.org/globus-connect-personal">Globus Connect Personal</Link> application.
     </p>
     <p>
+        Note that the direct "Download" option is not available; one must instead create a local endpoint using Globus Connect Personal and then transfer the files to that endpoint. See this tutorial [<Link target="_blank" href="https://www.youtube.com/watch?v=bpnVcAN99WY">video</Link>, <Link target="_blank" href="https://docs.globus.org/how-to/get-started/">text</Link>] for more information.
+    </p>
+    <p>
         Use of Globus may require creation of an account. Many institutions provide single sign-on capability; if yours does not, signing in with an ORCID is a commonly used option.
     </p>
     <p>
