@@ -14,7 +14,6 @@
         HeaderPanelLink,
         HeaderUtilities,
         SkipToContent,
-        Tile,
     } from "carbon-components-svelte";
     import {
         Light,

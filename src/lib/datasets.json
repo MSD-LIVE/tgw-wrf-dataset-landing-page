@@ -7,12 +7,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Fhistoric_1979_2020%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Fhistoric_1980_2019%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Fhistoric_1979_2020%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Fhistoric_1980_2019%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -26,12 +26,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45cooler_2019_2059%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45cooler_2020_2059%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45cooler_2019_2059%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45cooler_2020_2059%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -45,12 +45,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45cooler_2059_2099%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45cooler_2060_2099%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45cooler_2059_2099%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45cooler_2060_2099%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -64,12 +64,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45hotter_2019_2059%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45hotter_2020_2059%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45hotter_2019_2059%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45hotter_2020_2059%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -83,12 +83,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45hotter_2059_2099%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45hotter_2060_2099%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45hotter_2059_2099%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45hotter_2060_2099%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -102,12 +102,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85cooler_2019_2059%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85cooler_2020_2059%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85cooler_2019_2059%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85cooler_2020_2059%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -121,12 +121,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85cooler_2059_2099%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85cooler_2060_2099%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85cooler_2059_2099%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85cooler_2060_2099%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -140,12 +140,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85hotter_2019_2059%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85hotter_2020_2059%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85hotter_2019_2059%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85hotter_2020_2059%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -159,12 +159,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85hotter_2059_2099%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85hotter_2060_2099%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85hotter_2059_2099%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85hotter_2060_2099%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
