@@ -13,7 +13,7 @@
     <UnorderedList class="ol" expressive>
         <ListItem class="ul-li li">
             <p>
-                Jones, A.D., D. Rastogi, P. Vahmani, A. Stansfield, K. Reed, P. Ullrich, J. Rice, From storylines to anthologies: Twenty-first century climate projections for the continental United States based on thermodynamic modification of historic weather conditions, in prep.
+                Jones, A.D., Rastogi D., Vahmani P., Stansfield A., Reed K., Thurber T., Ullrich P., Rice J.S., Continental United States climate projections based on thermodynamic modification of historical weather, submitted.
             </p>
         </ListItem>
         <ListItem class="ul-li li">
