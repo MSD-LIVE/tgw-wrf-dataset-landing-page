@@ -108,7 +108,7 @@
                     HadGEM3-GC31-LL
                 </Column>
                 <Column>
-                    r1i1p1f3, r2i1p1f3, r3i1p1f3
+                    r1i1p1f3
                 </Column>
                 <Column>
                     High
