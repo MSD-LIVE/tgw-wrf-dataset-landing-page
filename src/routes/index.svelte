@@ -65,7 +65,7 @@
                     Citation
                 </h4>
                 <p style="font-style: italic;">
-                    Jones, A. D., D. Rastogi, P. Vahmani, A. Stansfield, K. Reed, T. Thurber, P.A. Ullrich, J. Rice (2023), Continental United States climate projections based on thermodynamic modification of historical weather, accepted at Nature Scientific Data, 
+                    Jones, A. D., D. Rastogi, P. Vahmani, A. Stansfield, K. Reed, T. Thurber, P.A. Ullrich, J. Rice (2023), Continental United States climate projections based on thermodynamic modification of historical weather, Nature Scientific Data, 
                     <Link target="_blank" href="https://doi.org/10.1038/s41597-023-02485-5">https://doi.org/10.1038/s41597-023-02485-5</Link>.
                 </p>
             </div>
