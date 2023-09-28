@@ -14,6 +14,7 @@
     <h1>
         Methods
     </h1>
+    <p>For a more thorough description of the methods, see the full paper at <Link target="_blank" href="https://doi.org/10.1038/s41597-023-02485-5">https://doi.org/10.1038/s41597-023-02485-5</Link>.</p>
     <h4>
         Model Selection
     </h4>
