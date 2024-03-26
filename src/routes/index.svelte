@@ -54,8 +54,21 @@
         <p style="margin-bottom:1rem;">
             The future scenarios were developed using a thermodynamic global warming approach where past events are replayed under a range of future warming conditions. These scenarios therefore provide a perspective on potential increases in extreme event intensity, geographic scope, and duration, with previously non-extreme conditions potentially crossing new thresholds to be considered extreme by today’s standards. This approach is not intended to estimate future changes in extreme event frequency that might result from changes in large-scale atmospheric dynamics.
         </p>
+        <h5 style="margin-bottom:0.25rem">
+            Notes on Bias Correction
+        </h5>
         <p style="margin-bottom:1rem;">
-            This dataset has NOT been bias corrected. A bias corrected version is under development and will be released here when available.
+            We would like to clarify that this dataset of dynamically downscaled climate has not undergone bias correction.
+            It is important to note that traditional bias correction methods, such as univariate quantile mapping, compromise the physical consistency among meteorological variables.
+            The physical consistency is crucial for predicting changes between past and future climates, particularly in complex process-based models that require a multitude of meteorological variables as climate forcing to accurately represent the underlying atmospheric processes.
+            We believe the physical consistency across variables at high spatiotemporal resolution is one of key attributes of this TGW dataset.
+            Therefore, we suggest that any bias correction needs to account for inter-dependencies between climate variables and internal variability of system states.
+            This necessitates careful exploration of options and time for development.
+        </p>
+        <p style="margin-bottom:1rem;">
+            Furthermore, it is essential to acknowledge that a single bias correction method may not be suitable for different applications of a climate dataset, such as drought versus flood predictions.
+            Bias correction methods typically aim to adjust systematic errors in climate data, but extreme events often result from complex interactions and nonlinear processes combined with other factors like local topography.
+            Therefore, addressing problems at both ends of the spectrum of extreme conditions often requires a combination of tailored approaches specific to the characteristics of extreme events, rather than relying solely on a single bias correction method.
         </p>
     </Tile>
     <div style="flex: 1 1 0; display:flex; flex-direction:column;">
