@@ -59,15 +59,12 @@
         </h5>
         <p style="margin-bottom:1rem;">
             We would like to clarify that this dataset of dynamically downscaled climate has not undergone bias correction.
-            It is important to note that traditional bias correction methods, such as univariate quantile mapping, compromise the physical consistency among meteorological variables.
-            The physical consistency is crucial for predicting changes between past and future climates, particularly in complex process-based models that require a multitude of meteorological variables as climate forcing to accurately represent the underlying atmospheric processes.
-            We believe the physical consistency across variables at high spatiotemporal resolution is one of key attributes of this TGW dataset.
-            Therefore, we suggest that any bias correction needs to account for inter-dependencies between climate variables and internal variability of system states.
-            This necessitates careful exploration of options and time for development.
+            Traditional bias correction methods, such as univariate quantile mapping, can compromise the physical consistency among meteorological variables.
+            Given that physical consistency across variables at high spatiotemporal resolution is one of key attributes of this TGW dataset, we suggest that any bias correction applied to the data account for inter-dependencies between climate variables.
         </p>
         <p style="margin-bottom:1rem;">
-            Furthermore, it is essential to acknowledge that a single bias correction method may not be suitable for different applications of a climate dataset, such as drought versus flood predictions.
-            Bias correction methods typically aim to adjust systematic errors in climate data, but extreme events often result from complex interactions and nonlinear processes combined with other factors like local topography.
+            Moreover, a single bias correction method may not be suitable for different applications of a climate dataset, such as drought versus flood predictions.
+            Bias correction methods typically aim to adjust systematic errors in climate data, but extreme events often result from complex interactions and nonlinear processes combined with spatially heterogenous factors like local topography.
             Therefore, addressing problems at both ends of the spectrum of extreme conditions often requires a combination of tailored approaches specific to the characteristics of extreme events, rather than relying solely on a single bias correction method.
         </p>
     </Tile>
