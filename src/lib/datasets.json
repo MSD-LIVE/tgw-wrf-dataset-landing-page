@@ -181,5 +181,33 @@
                 "type": "globus"
             }
         ]
+    },
+    {
+        "name": "Derived Product:",
+        "image": "/img/tgw_counties.png",
+        "subtitle": "Aggregated Meteorology by County",
+        "doi": "10.57931/1960548",
+        "tags": [],
+        "urls": [
+            {
+                "subset": "all scenarios",
+                "url": "https://data.msdlive.org/records/g4kct-fhy96",
+                "type": "MSDLIVE"
+            }
+        ]
+    },
+    {
+        "name": "Derived Product:",
+        "image": "/img/tgw_bas.png",
+        "subtitle": "Aggregated Meteorology by BA",
+        "doi": "10.57931/1960530",
+        "tags": [],
+        "urls": [
+            {
+                "subset": "all scenarios",
+                "url": "https://data.msdlive.org/records/cnsy6-0y610",
+                "type": "MSDLIVE"
+            }
+        ]
     }
 ]

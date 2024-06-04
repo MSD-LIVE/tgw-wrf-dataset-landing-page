@@ -17,7 +17,7 @@
     </p>
     <div class="applications">
         {#each applications as application, i}
-            <Tile class="fit-tile" style="width: 42rem;">
+            <Tile class="fit-tile" style="min-width: 24rem; max-width: 56rem; width: 100%;">
                 <div class="application">
                     <div>
                         <img class="application-img" src="{application.thumbnail}" alt=""/>
@@ -26,6 +26,11 @@
                         <h4 id="application-{i}">
                             {application.name}
                         </h4>
+                        {#if application.presentedAt}
+                            <h6>
+                                Presented to: {application.presentedAt}
+                            </h6>
+                        {/if}
                         <p>
                             {application.description}
                         </p>
@@ -53,6 +58,11 @@
         max-height: 200px;
         object-fit: contain;
         margin-right: 1rem;
+    }
+    h6 {
+        font-weight: normal;
+        font-size: 12px;
+        color: #555;
     }
     
 </style>

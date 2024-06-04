@@ -1,9 +1,18 @@
 [
     {
-        "name": "Utility Scale Climate Impacts",
-        "description": "Using the TGW WRF data to simulate electricity demand, resource availability, and power grid operations during extreme weather events.",
-        "thumbnail": "/img/Utility Scale Climate Impacts - IM3 project - thumbnail.png",
-        "file": "/files/Utility Scale Climate Impacts - IM3 project.pptx",
-        "fileType": "Powerpoint"
+        "name": "Forward Looking Extreme Weather Datasets",
+        "description": "To assess the resilience and reliability of the bulk power system, it is critical to evaluate system performance with coincident load-wind-solar-hydro conditions and across a wide range of historical and projected weather conditions.",
+        "thumbnail": "/img/forward_looking_extremes_thumbnail.png",
+        "file": "/files/Burleyson_ESIG_Talk_Resilience.pptx",
+        "fileType": "Powerpoint",
+        "presentedAt": "Energy Systems Integration Group Spring Technical Workshop"
+    },
+    {
+        "name": "Integration of Climate Forecasts in Bulk Power System Studies",
+        "description": "Translating scientific understanding into actionable power-system relevant data and insights for use in long-term planning.",
+        "thumbnail": "/img/bulk_power_system_thumbnail.png",
+        "file": "/files/Burleyson_WECC_RAC_Talk.pptx",
+        "fileType": "Powerpoint",
+        "presentedAt": "Western Electricity Coordinating Council Reliability Assessment Committee"
     }
 ]

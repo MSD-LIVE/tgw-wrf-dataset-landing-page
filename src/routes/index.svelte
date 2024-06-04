@@ -122,14 +122,17 @@
         <div class='flex-row'>
             {#each datasets as dataset, i}
                 <div class='dataset'>
-                    <ClickableTile class='dataset-tile' href="/downloads">
+                    <ClickableTile
+                        class='dataset-tile'
+                        href={dataset.urls?.[0]?.type === "MSDLIVE" ? dataset.urls[0].url : "/downloads"}
+                    >
                         <img
                             class='dataset-img'
                             src="{dataset.image}"
                             alt=''
                         />
                         <p>{dataset.name}</p>
-                        <p>{dataset.subtitle}</p>
+                        <p class='subtitle'>{dataset.subtitle}</p>
                         <p>
                             {#if dataset.tags}
                                 {#each dataset.tags as tag}
@@ -293,6 +296,9 @@
         border-radius: 3px;
         margin-bottom: 0.5rem;
         object-fit: cover;
+    }
+    p.subtitle {
+        font-size: 0.75rem;
     }
     .variable-img-wrapper  {
         height: 150px;

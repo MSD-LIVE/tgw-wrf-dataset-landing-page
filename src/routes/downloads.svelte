@@ -8,7 +8,7 @@
         Tag,
         Tile,
     } from "carbon-components-svelte";
-    import { Globe, Hourglass } from "carbon-icons-svelte";
+    import { Globe, CloudDownload } from "carbon-icons-svelte";
     import datasets from "$lib/datasets.json";
 </script>
 
@@ -45,15 +45,17 @@
                                     {url.subset}
                                 </StructuredListCell>
                                 <StructuredListCell noWrap>
-                                    {#if url.url}
+                                    {#if url.type == 'globus'}
                                         <Tag type="blue">
                                             <Link icon={Globe} target="_blank" href="{url.url}">
                                                 Globus Endpoint
                                             </Link>
                                         </Tag>
-                                    {:else}
-                                        <Tag icon={Hourglass} type="red">
-                                            Coming Soon!
+                                    {:else if url.type == 'MSDLIVE'}
+                                        <Tag type="cyan">
+                                            <Link icon={CloudDownload} target="_blank" href="{url.url}">
+                                                MSDLIVE
+                                            </Link>
                                         </Tag>
                                     {/if}
                                 </StructuredListCell>
@@ -81,10 +83,15 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+    :global(.fit-tile) {
+        display: flex;
+        flex-direction: column;
+    }
     .doi-row {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: start;
+        margin-top: auto;
     }
 </style>
