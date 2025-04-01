@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Data rich climate simulations over the U.S. at high spatiotemporal resolution spanning a range of plausible changes in future climate." />
+		<link rel="icon" href="./favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta property="og:title" content="IM3/HyperFACETS TGW Simulations" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://tgw-data.msdlive.org" />
+		<link rel="image_src" href="https://tgw-data.msdlive.org/img/wind.png" type="image/png" />
+		<meta property="og:image" content="https://tgw-data.msdlive.org/img/wind.png" />
+		<meta property="og:image:secure_url" content="https://tgw-data.msdlive.org/img/wind.png" />
+		<meta property="og:image:type" content="image/png" />
+		<meta property="og:description" content="Data rich climate simulations over the U.S. at high spatiotemporal resolution spanning a range of plausible changes in future climate." />
+		<meta property="og:site_name" content="IM3/HyperFACETS TGW Simulations" />
+		<meta property="og:locale" content="en_US" />
+		<meta name="twitter:title" content="IM3/HyperFACETS TGW Simulations" />
+		<meta name="twitter:description" content="Data rich climate simulations over the U.S. at high spatiotemporal resolution spanning a range of plausible changes in future climate." />
+		<meta http-equiv="content-security-policy" content=""><script data-svelte="svelte-252y86">if (document) {
+            const STORAGE_KEY = "dataweb-color-scheme";
+            let mode = localStorage.getItem(STORAGE_KEY);
+            if (!mode) {
+                mode = window.matchMedia("(prefers-color-scheme: dark)").matches
+                    ? "g100"
+                    : "white";
+            }
+            document.documentElement.setAttribute("theme", mode);
+            localStorage.setItem(STORAGE_KEY, mode);
+		}
+	</script>
+	<link rel="stylesheet" href="/_app/immutable/assets/__layout-c3b29d1a.css">
+	<link rel="stylesheet" href="/_app/immutable/assets/downloads-b4bc8630.css">
+	<link rel="modulepreload" href="/_app/immutable/start-f4034332.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/index-3c1bcb30.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/index-841e0a24.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/__layout.svelte-5362b042.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/Close-62354f93.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/downloads.svelte-b16c9e11.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/Link-3edb09c3.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/datasets-502c85b0.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/Tile-5ade830f.js">
+	</head>
+	<body>
+		<div>
+
+
+
+
+
+
+<header aria-label="TGW Simulations" class="bx--header"><a href="#main-content" tabindex="0" class="bx--skip-to-content">Skip to main content</a>
+    
+  
+  <a class="bx--header__name">
+    TGW Simulations</a>
+  <nav class="bx--header__nav"><ul role="menubar" class="bx--header__menu-bar"><li role="none"><a role="menuitem" tabindex="0" href="/" class="bx--header__menu-item"><span class="bx--text-truncate--end">Home</span></a></li>
+        <li role="none"><a role="menuitem" tabindex="0" href="/methods" class="bx--header__menu-item"><span class="bx--text-truncate--end">Methods</span></a></li>
+        <li role="none"><a role="menuitem" tabindex="0" href="/publications" class="bx--header__menu-item"><span class="bx--text-truncate--end">Publications</span></a></li>
+        <li role="none"><a role="menuitem" tabindex="0" href="/variables" class="bx--header__menu-item"><span class="bx--text-truncate--end">Variables</span></a></li>
+        <li role="none"><a role="menuitem" tabindex="0" href="/downloads" aria-current="page" class="bx--header__menu-item"><span class="bx--text-truncate--end">Downloads</span></a></li>
+        <li role="none"><a role="menuitem" tabindex="0" href="/collaborate" class="bx--header__menu-item"><span class="bx--text-truncate--end">Collaborate!</span></a></li></ul></nav>
+    <div class="bx--header__global"><button type="button" aria-label="Theme" class="bx--header__action ">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="20" height="20" aria-hidden><path d="M15 2H17V7H15z"></path><path d="M21.668 6.854H26.625999999999998V8.854H21.668z" transform="rotate(-45 24.147 7.853)"></path><path d="M25 15H30V17H25z"></path><path d="M23.147 21.668H25.147V26.625999999999998H23.147z" transform="rotate(-45 24.147 24.146)"></path><path d="M15 25H17V30H15z"></path><path d="M5.375 23.147H10.333V25.147H5.375z" transform="rotate(-45 7.853 24.146)"></path><path d="M2 15H7V17H2z"></path><path d="M6.854 5.375H8.854V10.333H6.854z" transform="rotate(-45 7.854 7.853)"></path><path d="M16,12a4,4,0,1,1-4,4,4.0045,4.0045,0,0,1,4-4m0-2a6,6,0,1,0,6,6,6,6,0,0,0-6-6Z"></path></svg>
+  </button>
+            
+
+<button type="button" class="bx--header__action   svelte-187bdaq">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="20" height="20" aria-hidden><path d="M14 4H18V8H14zM4 4H8V8H4zM24 4H28V8H24zM14 14H18V18H14zM4 14H8V18H4zM24 14H28V18H24zM14 24H18V28H14zM4 24H8V28H4zM24 24H28V28H24z"></path></svg>
+    
+  
+    
+  </button>
+</div></header>
+
+<main id="main-content" class="bx--content">
+<div class="bx--tile bx--tile--light"><h1>Downloads
+    </h1>
+    <p class="svelte-11qwbss">Data is available via Globus endpoint. Globus is an efficient file transfer application and download manager.
+    </p>
+    <p class="svelte-11qwbss">Many computing clusters provide mechanisms for transferring files from Globus endpoints. To download directly to your machine, use the 
+<a rel="noopener noreferrer" href="https://www.globus.org/globus-connect-personal" target="_blank" class="bx--link     ">Globus Connect Personal
+    </a> application.
+    </p>
+    <p class="svelte-11qwbss">Note that the direct &quot;Download&quot; option is not available; one must instead create a local endpoint using Globus Connect Personal and then transfer the files to that endpoint. See this tutorial [
+<a rel="noopener noreferrer" href="https://www.youtube.com/watch?v=bpnVcAN99WY" target="_blank" class="bx--link     ">video
+    </a>, 
+<a rel="noopener noreferrer" href="https://docs.globus.org/how-to/get-started/" target="_blank" class="bx--link     ">text
+    </a>] for more information.
+    </p>
+    <p class="svelte-11qwbss">Use of Globus may require creation of an account. Many institutions provide single sign-on capability; if yours does not, signing in with an ORCID is a commonly used option.
+    </p>
+    <p class="svelte-11qwbss">A copy of the data is permanently stored in the MSD-LIVE data repository.
+    </p>
+    <div class="flex-row svelte-11qwbss">
+<div class="fit-tile bx--tile "><h4 id="dataset-0">historical</h4>
+                <span>1980 - 2019</span>
+                
+<div role="table" class="bx--structured-list  bx--structured-list--condensed bx--structured-list--flush">
+<div role="rowgroup" class="bx--structured-list-tbody">
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.quxjt4otv3" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Fhistorical_1980_2019%2Fhourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">three-hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.ntocsvlmq6e" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Fhistorical_1980_2019%2Fthree_hourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="doi-row svelte-11qwbss"><a href="https://doi.org/10.57931/1885756"><img src="https://data.msdlive.org/badge/DOI/10.57931/1885756.svg" alt="DOI"></a></div>
+            </div>
+<div class="fit-tile bx--tile "><h4 id="dataset-1">rcp45cooler</h4>
+                <span>2020 - 2059</span>
+                
+<div role="table" class="bx--structured-list  bx--structured-list--condensed bx--structured-list--flush">
+<div role="rowgroup" class="bx--structured-list-tbody">
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.o9qw4khjn7q" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp45cooler_2020_2059%2Fhourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">three-hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.la9az5b3aw" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp45cooler_2020_2059%2Fthree_hourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="doi-row svelte-11qwbss"><a href="https://doi.org/10.57931/1885756"><img src="https://data.msdlive.org/badge/DOI/10.57931/1885756.svg" alt="DOI"></a></div>
+            </div>
+<div class="fit-tile bx--tile "><h4 id="dataset-2">rcp45cooler</h4>
+                <span>2060 - 2099</span>
+                
+<div role="table" class="bx--structured-list  bx--structured-list--condensed bx--structured-list--flush">
+<div role="rowgroup" class="bx--structured-list-tbody">
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.tvb8lnni16o" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp45cooler_2060_2099%2Fhourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">three-hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.ur8gzwgbi" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp45cooler_2060_2099%2Fthree_hourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="doi-row svelte-11qwbss"><a href="https://doi.org/10.57931/1885756"><img src="https://data.msdlive.org/badge/DOI/10.57931/1885756.svg" alt="DOI"></a></div>
+            </div>
+<div class="fit-tile bx--tile "><h4 id="dataset-3">rcp45hotter</h4>
+                <span>2020 - 2059</span>
+                
+<div role="table" class="bx--structured-list  bx--structured-list--condensed bx--structured-list--flush">
+<div role="rowgroup" class="bx--structured-list-tbody">
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.dw9v5dcaj0j" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp45hotter_2020_2059%2Fhourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">three-hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.7ks48q4b44q" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp45hotter_2020_2059%2Fthree_hourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="doi-row svelte-11qwbss"><a href="https://doi.org/10.57931/1885756"><img src="https://data.msdlive.org/badge/DOI/10.57931/1885756.svg" alt="DOI"></a></div>
+            </div>
+<div class="fit-tile bx--tile "><h4 id="dataset-4">rcp45hotter</h4>
+                <span>2060 - 2099</span>
+                
+<div role="table" class="bx--structured-list  bx--structured-list--condensed bx--structured-list--flush">
+<div role="rowgroup" class="bx--structured-list-tbody">
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.3rcxbh373cj" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp45hotter_2060_2099%2Fhourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">three-hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.45u222ojwx9" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp45hotter_2060_2099%2Fthree_hourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="doi-row svelte-11qwbss"><a href="https://doi.org/10.57931/1885756"><img src="https://data.msdlive.org/badge/DOI/10.57931/1885756.svg" alt="DOI"></a></div>
+            </div>
+<div class="fit-tile bx--tile "><h4 id="dataset-5">rcp85cooler</h4>
+                <span>2020 - 2059</span>
+                
+<div role="table" class="bx--structured-list  bx--structured-list--condensed bx--structured-list--flush">
+<div role="rowgroup" class="bx--structured-list-tbody">
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.wx2z1y8ymu8" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp85cooler_2020_2059%2Fhourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">three-hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.r2u56uqtd2" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp85cooler_2020_2059%2Fthree_hourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="doi-row svelte-11qwbss"><a href="https://doi.org/10.57931/1885756"><img src="https://data.msdlive.org/badge/DOI/10.57931/1885756.svg" alt="DOI"></a></div>
+            </div>
+<div class="fit-tile bx--tile "><h4 id="dataset-6">rcp85cooler</h4>
+                <span>2060 - 2099</span>
+                
+<div role="table" class="bx--structured-list  bx--structured-list--condensed bx--structured-list--flush">
+<div role="rowgroup" class="bx--structured-list-tbody">
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.nzkxmdn7l7k" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp85cooler_2060_2099%2Fhourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">three-hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.lbhg1vihsa" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp85cooler_2060_2099%2Fthree_hourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="doi-row svelte-11qwbss"><a href="https://doi.org/10.57931/1885756"><img src="https://data.msdlive.org/badge/DOI/10.57931/1885756.svg" alt="DOI"></a></div>
+            </div>
+<div class="fit-tile bx--tile "><h4 id="dataset-7">rcp85hotter</h4>
+                <span>2020 - 2059</span>
+                
+<div role="table" class="bx--structured-list  bx--structured-list--condensed bx--structured-list--flush">
+<div role="rowgroup" class="bx--structured-list-tbody">
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.bul98p6totn" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp85hotter_2020_2059%2Fhourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">three-hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.otweq9djbk" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp85hotter_2020_2059%2Fthree_hourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="doi-row svelte-11qwbss"><a href="https://doi.org/10.57931/1885756"><img src="https://data.msdlive.org/badge/DOI/10.57931/1885756.svg" alt="DOI"></a></div>
+            </div>
+<div class="fit-tile bx--tile "><h4 id="dataset-8">rcp85hotter</h4>
+                <span>2060 - 2099</span>
+                
+<div role="table" class="bx--structured-list  bx--structured-list--condensed bx--structured-list--flush">
+<div role="rowgroup" class="bx--structured-list-tbody">
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.3eqcsqzdfrl" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp85hotter_2060_2099%2Fhourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">three-hourly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.x9ozk1kw8h" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2Frcp85hotter_2060_2099%2Fthree_hourly%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="doi-row svelte-11qwbss"><a href="https://doi.org/10.57931/1885756"><img src="https://data.msdlive.org/badge/DOI/10.57931/1885756.svg" alt="DOI"></a></div>
+            </div>
+<div class="fit-tile bx--tile "><h4 id="dataset-9">warming deltas</h4>
+                <span>2020 - 2099</span>
+                
+<div role="table" class="bx--structured-list  bx--structured-list--condensed bx--structured-list--flush">
+<div role="rowgroup" class="bx--structured-list-tbody">
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">annual/monthly
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.nqbrgrrliki" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a rel="noopener noreferrer" href="https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&amp;origin_path=%2F~%2FDelta_values%2F" target="_blank" class="bx--link     ">Globus Endpoint
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M14,4a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-2a9,9,0,1,0,9,9A9,9,0,0,0,14,2Z"></path><path d="M28,11a13.9563,13.9563,0,0,0-4.1051-9.8949L22.4813,2.5187A11.9944,11.9944,0,0,1,5.5568,19.5194l-.0381-.0381L4.1051,20.8949A13.9563,13.9563,0,0,0,14,25v3H10v2H20V28H16V24.84A14.0094,14.0094,0,0,0,28,11Z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="doi-row svelte-11qwbss"><a href="https://doi.org/10.57931/1885756"><img src="https://data.msdlive.org/badge/DOI/10.57931/1885756.svg" alt="DOI"></a></div>
+            </div>
+<div class="fit-tile bx--tile "><h4 id="dataset-10">Derived Product:</h4>
+                <span>Aggregated Meteorology by County</span>
+                
+<div role="table" class="bx--structured-list  bx--structured-list--condensed bx--structured-list--flush">
+<div role="rowgroup" class="bx--structured-list-tbody">
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">all scenarios
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.95q96fx4d4r" class="bx--tag       bx--tag--cyan       ">
+    <span>
+<a rel="noopener noreferrer" href="https://data.msdlive.org/records/g4kct-fhy96" target="_blank" class="bx--link     ">MSDLIVE
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M23.5,22H23V20h.5a4.5,4.5,0,0,0,.36-9L23,11l-.1-.82a7,7,0,0,0-13.88,0L9,11,8.14,11a4.5,4.5,0,0,0,.36,9H9v2H8.5A6.5,6.5,0,0,1,7.2,9.14a9,9,0,0,1,17.6,0A6.5,6.5,0,0,1,23.5,22Z"></path><path d="M17 26.17L17 14 15 14 15 26.17 12.41 23.59 11 25 16 30 21 25 19.59 23.59 17 26.17z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="doi-row svelte-11qwbss"><a href="https://doi.org/10.57931/1960548"><img src="https://data.msdlive.org/badge/DOI/10.57931/1960548.svg" alt="DOI"></a></div>
+            </div>
+<div class="fit-tile bx--tile "><h4 id="dataset-11">Derived Product:</h4>
+                <span>Aggregated Meteorology by BA</span>
+                
+<div role="table" class="bx--structured-list  bx--structured-list--condensed bx--structured-list--flush">
+<div role="rowgroup" class="bx--structured-list-tbody">
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class="small-cell  bx--structured-list-td bx--structured-list-content--nowrap">all scenarios
+                                </div>
+                                
+<div role="cell" class=" bx--structured-list-td bx--structured-list-content--nowrap">
+<div id="ccs-0.rn4l1hnp67e" class="bx--tag       bx--tag--cyan       ">
+    <span>
+<a rel="noopener noreferrer" href="https://data.msdlive.org/records/cnsy6-0y610" target="_blank" class="bx--link     ">MSDLIVE
+                                            
+    <div class="bx--link__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M23.5,22H23V20h.5a4.5,4.5,0,0,0,.36-9L23,11l-.1-.82a7,7,0,0,0-13.88,0L9,11,8.14,11a4.5,4.5,0,0,0,.36,9H9v2H8.5A6.5,6.5,0,0,1,7.2,9.14a9,9,0,0,1,17.6,0A6.5,6.5,0,0,1,23.5,22Z"></path><path d="M17 26.17L17 14 15 14 15 26.17 12.41 23.59 11 25 16 30 21 25 19.59 23.59 17 26.17z"></path></svg>
+        </div></a>
+                                        </span></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="doi-row svelte-11qwbss"><a href="https://doi.org/10.57931/1960530"><img src="https://data.msdlive.org/badge/DOI/10.57931/1960530.svg" alt="DOI"></a></div>
+            </div></div></div></main>
+
+
+		<script type="module" data-sveltekit-hydrate="gv6ez0">
+		import { set_public_env, start } from "/_app/immutable/start-f4034332.js";
+
+		set_public_env({});
+
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="gv6ez0"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [0, 3],
+				params: {},
+				routeId: "downloads"
+			}
+		});
+	</script></div>
+	</body>
+</html>
