@@ -33,7 +33,7 @@
         class="hero-txt"
     >
         <p>IM3 / HyperFACETS</p>
-        <h1>Thermodynamic Global Warming Simulations</h1>
+        <h1>Perturbed Thermodynamics Simulations</h1>
         <p>Dataset</p>
     </div>
 </div>
@@ -46,25 +46,25 @@
             Overview <small class="small"><Link icon={Launch} href="/methods">methods</Link></small>
         </h4>
         <p style="margin-bottom:1rem;">
-            The <Link target="_blank" href="https://im3.pnnl.gov">IM3</Link> / <Link target="_blank" href="https://hyperfacets.ucdavis.edu/">HyperFACETS</Link> climate simulations provide 40-year historical (1980-2019) as well as four 80-year future simulations (2020-2099) over the U.S. The future simulations are split into near (2020-2059) and far future (2060-2099) segments. The future scenarios span a range of plausible changes in future climate (both Global Circulation Model (GCM) and Representative Concentration Pathways/Shared Socioeconomic Pathway (RCP/SSP) dimensions). 
+            The <Link target="_blank" href="https://im3.pnnl.gov">IM3</Link> / <Link target="_blank" href="https://hyperfacets.ucdavis.edu/">HyperFACETS</Link> perturbed thermodynamics simulations provide 40-year historical (1980-2019) as well as four 80-year future simulations of hourly meteorology (2020-2099) over the U.S. The future simulations are split into near (2020-2059) and far future (2060-2099) segments. The future scenarios span a wide range of plausible futures.
         </p>
         <p style="margin-bottom:1rem;">
-            The simulations provide 25 hourly and over 200 three-hourly climate <Link href="/variables">variables</Link> with high spatiotemporal resolution. The datasets are generated using dynamical downscaling with the <Link target="_blank" href="https://www.mmm.ucar.edu/weather-research-and-forecasting-model">WRF</Link> (Weather Research and Forecasting) model (version 4.2.1) and therefore preserve physical consistency across variables. WRF is a state-of-the-art, fully compressible, non-hydrostatic, mesoscale numerical weather prediction model. WRF is coupled with an urban canopy model (UCM), which resolves urban surfaces. 
+            The simulations provide 25 hourly and over 200 three-hourly meteorological <Link href="/variables">variables</Link> with high spatiotemporal resolution. The datasets are generated using dynamical downscaling with the <Link target="_blank" href="https://www.mmm.ucar.edu/weather-research-and-forecasting-model">WRF</Link> (Weather Research and Forecasting) model (version 4.2.1) and therefore preserve physical consistency across variables. WRF is a state-of-the-art, fully compressible, non-hydrostatic, mesoscale numerical weather prediction model. WRF is coupled with an urban canopy model (UCM), which resolves urban surfaces. 
         </p>
         <p style="margin-bottom:1rem;">
-            The future scenarios were developed using a thermodynamic global warming approach where past events are replayed under a range of future warming conditions. These scenarios therefore provide a perspective on potential increases in extreme event intensity, geographic scope, and duration, with previously non-extreme conditions potentially crossing new thresholds to be considered extreme by today’s standards. This approach is not intended to estimate future changes in extreme event frequency that might result from changes in large-scale atmospheric dynamics.
+            The future scenarios were developed using perturbed thermodynamics, where past events are replayed under a range of hotter and drier future conditions. These scenarios therefore provide a perspective on potential increases in extreme event intensity, geographic scope, and duration, with previously non-extreme conditions potentially crossing new thresholds to be considered extreme by today’s standards. This approach is not intended to estimate future changes in extreme event frequency that might result from changes in large-scale atmospheric dynamics.
         </p>
         <h5 style="margin-bottom:0.25rem">
             Notes on Bias Correction
         </h5>
         <p style="margin-bottom:1rem;">
-            We would like to clarify that this dataset of dynamically downscaled climate has not undergone bias correction.
+            We would like to clarify that this dataset has not undergone bias correction.
             Traditional bias correction methods, such as univariate quantile mapping, can compromise the physical consistency among meteorological variables.
-            Given that physical consistency across variables at high spatiotemporal resolution is one of key attributes of this TGW dataset, we suggest that any bias correction applied to the data account for inter-dependencies between climate variables.
+            Given that physical consistency across variables at high spatiotemporal resolution is one of key attributes of this dataset, we suggest that any bias correction applied to the data account for inter-dependencies between variables.
         </p>
         <p style="margin-bottom:1rem;">
-            Moreover, a single bias correction method may not be suitable for different applications of a climate dataset, such as drought versus flood predictions.
-            Bias correction methods typically aim to adjust systematic errors in climate data, but extreme events often result from complex interactions and nonlinear processes combined with spatially heterogenous factors like local topography.
+            Moreover, a single bias correction method may not be suitable for different applications, such as drought versus flood predictions.
+            Bias correction methods typically aim to adjust systematic errors, but extreme events often result from complex interactions and nonlinear processes combined with spatially heterogenous factors like local topography.
             Therefore, addressing problems at both ends of the spectrum of extreme conditions often requires a combination of tailored approaches specific to the characteristics of extreme events, rather than relying solely on a single bias correction method.
         </p>
     </Tile>

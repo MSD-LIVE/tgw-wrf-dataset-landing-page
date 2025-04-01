@@ -67,7 +67,6 @@
     <HeaderNav>
         <HeaderNavItem href="/" text="Home" isSelected={$page.url.pathname == "/"} />
         <HeaderNavItem href="/methods" text="Methods" isSelected={$page.url.pathname == "/methods"}/>
-        <HeaderNavItem href="/applications" text="Applications" isSelected={$page.url.pathname == "/applications"}/>
         <HeaderNavItem href="/publications" text="Publications" isSelected={$page.url.pathname == "/publications"}/>
         <HeaderNavItem href="/variables" text="Variables" isSelected={$page.url.pathname == "/variables"}/>
         <HeaderNavItem href="/downloads" text="Downloads" isSelected={$page.url.pathname == "/downloads"}/>
