@@ -46,7 +46,7 @@
             Overview <small class="small"><Link icon={Launch} href="/methods">methods</Link></small>
         </h4>
         <p style="margin-bottom:1rem;">
-            The <Link target="_blank" href="https://im3.pnnl.gov">IM3</Link> / <Link target="_blank" href="https://hyperfacets.ucdavis.edu/">HyperFACETS</Link> perturbed thermodynamics simulations provide 40-year historical (1980-2019) as well as four 80-year future simulations of hourly meteorology (2020-2099) over the U.S. The future simulations are split into near (2020-2059) and far future (2060-2099) segments. The future scenarios span a wide range of plausible futures.
+            The <Link target="_blank" href="https://im3.pnnl.gov">IM3</Link> / <Link target="_blank" href="https://hyperfacets.ucdavis.edu/">HyperFACETS</Link> perturbed thermodynamics simulations provide 40-year historical (1980-2019) as well as four 80-year future simulations of hourly meteorology (2020-2099) over the U.S. (Jones et al. 2023). The future simulations are split into near (2020-2059) and far future (2060-2099) segments. The future scenarios span a wide range of plausible futures.
         </p>
         <p style="margin-bottom:1rem;">
             The simulations provide 25 hourly and over 200 three-hourly meteorological <Link href="/variables">variables</Link> with high spatiotemporal resolution. The datasets are generated using dynamical downscaling with the <Link target="_blank" href="https://www.mmm.ucar.edu/weather-research-and-forecasting-model">WRF</Link> (Weather Research and Forecasting) model (version 4.2.1) and therefore preserve physical consistency across variables. WRF is a state-of-the-art, fully compressible, non-hydrostatic, mesoscale numerical weather prediction model. WRF is coupled with an urban canopy model (UCM), which resolves urban surfaces. 
@@ -69,17 +69,6 @@
         </p>
     </Tile>
     <div style="flex: 1 1 0; display:flex; flex-direction:column;">
-        <Tile light style="min-width: 350px;">
-            <div>
-                <h4>
-                    Citation
-                </h4>
-                <p style="font-style: italic;">
-                    Jones, A.D., Rastogi, D., Vahmani, P. et al. Continental United States climate projections based on thermodynamic modification of historical weather. Sci Data 10, 664 (2023). 
-                    <Link target="_blank" href="https://doi.org/10.1038/s41597-023-02485-5">https://doi.org/10.1038/s41597-023-02485-5</Link>.
-                </p>
-            </div>
-        </Tile>
         <Tile light>
             <div class="stats">
                 <h4 class="stat-label">
@@ -216,6 +205,16 @@
         <div>
             <p class="acknowledgement">
                 This data was developed collaboratively between the IM3 and HyperFACETS projects, both of which are supported by the U.S. Department of Energy, Office of Science, as part of research in MultiSector Dynamics, and Regional and Global Model Analysis, Earth and Environmental System Modeling Program. A portion of this research used the computing resources of the National Energy Research Scientific Computing Center (NERSC), a U.S. Department of Energy Office of Science User Facility located at Lawrence Berkeley National Laboratory, operated under Contract No. DE-AC02-05CH11231.
+            </p>
+        </div>
+
+        <div>
+            <h4>
+                Citation
+            </h4>
+            <p class="acknowledgement">    
+                    Jones, A.D., Rastogi, D., Vahmani, P. et al. Continental United States climate projections based on thermodynamic modification of historical weather. Sci Data 10, 664 (2023). 
+                    <Link target="_blank" href="https://doi.org/10.1038/s41597-023-02485-5">https://doi.org/10.1038/s41597-023-02485-5</Link>.
             </p>
         </div>
     </Tile>
