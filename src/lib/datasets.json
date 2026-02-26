@@ -1,5 +1,6 @@
 [
-    {   "name": "historical",
+    {
+        "name": "historical",
         "image": "/img/wrf_historic_1980.png",
         "subtitle": "1980 - 2019",
         "doi": "10.57931/1885756",
@@ -26,12 +27,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45cooler_2020_2059%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=224b1693-e621-4bc1-aed2-6c8fec08320a&origin_path=%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45cooler_2020_2059%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=224b1693-e621-4bc1-aed2-6c8fec08320a&origin_path=%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -45,12 +46,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45cooler_2060_2099%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=7b4c2b09-4587-42b9-bba3-16b9f2277a00&origin_path=%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45cooler_2060_2099%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=7b4c2b09-4587-42b9-bba3-16b9f2277a00&origin_path=%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -64,12 +65,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45hotter_2020_2059%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=4f04b1aa-4e93-458b-bc33-bf97e05ed6a3&origin_path=%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45hotter_2020_2059%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=4f04b1aa-4e93-458b-bc33-bf97e05ed6a3&origin_path=%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -83,12 +84,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45hotter_2060_2099%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=145a8fbb-5b1c-4eae-8cc9-e782604b93b8&origin_path=%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp45hotter_2060_2099%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=145a8fbb-5b1c-4eae-8cc9-e782604b93b8&origin_path=%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -102,12 +103,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85cooler_2020_2059%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=a26dd30f-4bb5-4f95-aefa-28b3de2819dc&origin_path=%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85cooler_2020_2059%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=a26dd30f-4bb5-4f95-aefa-28b3de2819dc&origin_path=%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -121,12 +122,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85cooler_2060_2099%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=16727b06-6bdf-4867-a82d-451e7c92bb52&origin_path=%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85cooler_2060_2099%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=16727b06-6bdf-4867-a82d-451e7c92bb52&origin_path=%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -140,12 +141,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85hotter_2020_2059%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=f1a22655-7e5a-476e-9936-b047a31c2a54&origin_path=%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85hotter_2020_2059%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=f1a22655-7e5a-476e-9936-b047a31c2a54&origin_path=%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
@@ -159,17 +160,18 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85hotter_2060_2099%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=ee86c77d-bc08-449c-856b-9866d0a479a4&origin_path=%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Frcp85hotter_2060_2099%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=ee86c77d-bc08-449c-856b-9866d0a479a4&origin_path=%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
     },
-    {   "name": "warming deltas",
+    {
+        "name": "warming deltas",
         "image": "/img/deltas.png",
         "subtitle": "2020 - 2099",
         "doi": "10.57931/1885756",
@@ -177,7 +179,7 @@
         "urls": [
             {
                 "subset": "annual/monthly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2FDelta_values%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=5aed9be7-ab52-41be-b243-bb2c5317415b&origin_path=%2F",
                 "type": "globus"
             }
         ]
