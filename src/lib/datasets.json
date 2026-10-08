@@ -8,12 +8,12 @@
         "urls": [
             {
                 "subset": "hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Fhistorical_1980_2019%2Fhourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=9392aa20-799e-4630-acb6-7e6a4ed5b795&origin_path=%2Fhistorical_1980_2019%2Fhourly%2F",
                 "type": "globus"
             },
             {
                 "subset": "three-hourly",
-                "url": "https://app.globus.org/file-manager?origin_id=909be1fe-2949-11ed-8dd0-9f359c660fbd&origin_path=%2F~%2Fhistorical_1980_2019%2Fthree_hourly%2F",
+                "url": "https://app.globus.org/file-manager?origin_id=9392aa20-799e-4630-acb6-7e6a4ed5b795&origin_path=%2Fhistorical_1980_2019%2Fthree_hourly%2F",
                 "type": "globus"
             }
         ]
